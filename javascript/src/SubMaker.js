@@ -95,6 +95,10 @@ function readTextFile(file, foo) {
 
 function parseSub(content) {
     var subs = []
-    subs.push("abc")
+    var sub = {
+        time: "00:02:46",
+        text: "Hello World"
+    }
+    subs.push(sub)
     return subs
 }
