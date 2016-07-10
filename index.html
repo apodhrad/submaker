@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <style>
+      table {width: 100%}
+      table, th, td {border: 1px gray solid}
+      textarea {height: 100%; width:100%}
+      span.id, span.time {display: none;}
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="javascript/src/SubMaker.js"></script>
+  </head>
+  <body>
+    <h1>Subtile Maker</h1>
+    <button type="button" id="fooBTN">Foo</button><br/>
+    <input type="file" id="originalFile" /><br/>
+    <input type="file" id="translatedFile" /><br/>
+    <!--button type="button" id="addBTN">Add</button--> 
+    <table id="srtTable">
+      <thead>
+	<tr>
+	  <th>Original</th>
+	  <th>Translate</th>
+	  <th>Action</th>
+	</tr>
+      </thead>
+    </table>
+    <hr/>
+    <div id="result"/>
+  </body>
+</html>
